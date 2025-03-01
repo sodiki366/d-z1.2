@@ -5,8 +5,8 @@ import pygame
 import pygame.mixer
 pygame.init()
 pygame.mixer.init()
-# pygame.mixer.music.load('resurs/La La Land.mp3')
-# pygame.mixer.music.play(-1)
+pygame.mixer.music.load('La La Land.mp3')
+pygame.mixer.music.play(-1)
 
 size = (1280, 720)
 screen = pygame.display.set_mode(size)
