@@ -46,8 +46,9 @@ while running:
     y = random.randint(0,720)
     COLOR = random.choice(COLORS)
     radius = random.randint(0,100)
+    num_circles = random.randint(10, 100)
 
-    pygame.draw.ellipse(screen, COLOR, (x,y,radius))
+    pygame.draw.ellipse(screen, COLOR, (x,y,radius),num_circles)
 
     screen.fill(BACKGROUND)#очистка экрана
 
